@@ -77,5 +77,16 @@ text-align: center;
 color: brown;
 background-color: Grey;}
 
+.item img {
+	float: left
+}
+.item span { Padding: 3;
+	display: table-cell;
+	vertical-align: middle;
+	height: 240px;
+}
 
-/* background-color: #60D156;}  */
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
