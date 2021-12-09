@@ -38,35 +38,70 @@
              <h4>Tell your non-tech friend a story about a time you: </h4>
               <h4>1.	Got blocked on a simple problem   </h4>
               
-              <p Padding: 80px>I was looking at answering a question using specific methods, and the new style of Javascripting and stumped. </p>
+              <p Padding: 80px>
+                I got stopped on the unicorn exercise, where I was getting a error when I ran the code, and the error message 
+                indicated the element didn't exist. I started using my favourite MO which is to display the contents of the values
+                at certain points of the program combined with changing the code, to see if a difference was made.  Still encountering 
+                a error.  Getting a little bit frustrated with this as couldn't understand why it was faulting.  I then put 
+                in more display messages, and realised ahh my index's were wrong calling the 2nd index and not the first
+                 (position 1 not position 0),  but still it was faulting.  I checked my elementId's for my files, and saw that I had
+                changed the first ID of three, but not the remaining two and they were not formatted the same was as the first.
+                
+                What had happened was that I was focused on getting the basics of the program working with the index set to first file
+                and had that named as I wanted.  Need to be consistant with changing all similar fields,  and not only that
+                but to hard copy text to maintain the accurracy of names uppercase vs lowercase.  
+
+                Had a very similar incident in Production at work where I had installed two messaging certificates, one for "Test" and
+                one for  "Production" environment. Due to my Laptop crashing my colleague installed the certificates in the keystore, so 
+                all I had to do was at the co-ordinated time make configuration changes using the new Certicate Alias and test them with
+                the B2B Trading Partner.
+                My Colleague provided me with the certificate Alias names, and "Test" environment went well, but when it came to 
+                Production the install went well, some config changes are via a dropdown menu accessing alias names from the certificate
+                keystore, found the certificate alias with the date on it. But one config change required my to copy the Alias name in.  
+                I did this from the email I received with the alias names from my colleague.  Messages were not being exchanged, and 
+                it looked like our side was at fault.
+                My Colleague had a look, couldn't see what was wrong, the configs looked right. Called in more eyes to look at it and 
+                we had a inconsistency of alias names       xyz_SHA2_AS2_20211021   vs xyz_AS2_SHA2_2021102. 
+                Easy to fix, and being in production  not a great look, but it didn't cause serious impact.  Just not seeing what was wrong
+                and not knowing why the new certificate was not being picked up in sending out messages, but working when receiving messages.
+                We don't have any tools at our disposal to check what or what certificate is not being used in the message exchanges, limited 
+                to getting more eyes on it, and they could see it clearly.
+                Pressure situation, dealing with someone from another organisation, and persoannly you don't look good (they didn't know our
+                 fault cause). We need to get it fixed quickly, and escalating through the options to fix it. Afterwards you learn to do things
+                differently like  now I created the Alias names in a notepad file first, and use a copy and paste when inserting them in the 
+                configuration process and the certificate keystore.   I have seen this happen many times on the other side, and I know what they
+                are going through and to be patient, as they have to solve it.  I sometimes advise if certain servers have been updated, as 
+                I get to know their setups
+              
+              
+              </p>
         
             <h4>2.	Solved a problem in an elegant way. </h4>
 
-              <p>What I did was did a google serach on how to use the specific method, and the website gave
-              an example, and it also lets you run the code and see the results. I was also able to 
-              add lines of my code in the website run editor, and from this I could display out
-              the contents of variable at certian lines of code.  This helped me understand what was going 
-              on, and then I could make changes to the code to reflect the question   </p>
+              <p>I was working on the Whack-a-mole Javascript, and I followed the guide of what to do, one was to create a 
+                2 dimensional array, which can be used to get table co-ordinates.  I did that, it worked fine.  It wasn't a 
+                 problem, but I ended up with a better way to get random table co-ordinates, and that was to run the random number 
+                  generator twice, once for rows and one for columns, and this depleted a whole lot of linage out of my program.
+
+                  How did I get to think about it, it came by taking a break, well actually going to bed, but the brain was still
+                  buzzing, and that idea came to me,  I thought that was a far better solution, again just taking a step back 
+                  and letting the sub conscious work it out was a great method.  
+
+                  With the same program I had managed to display the mole on my screen, and then I went and made a number of 
+                  changes and a bit of code tidy up, and it didn't work.  I thought too many changes here since it worked.
+                  So I went back to the Github repository and grabbed a version that had the feature working.  I took the 
+                  retrieved code, and slotted it into my exisiting program, to get the mole appearing.  That worked but didn't 
+                  understand where I had gone wrong, until I figured out the creation of the dynamic element for the image had 
+                  to be "img" and not what I had to changed it to.  so I learned what I had done wrong, confirmed this by doing 
+                  a few test runs, and from there the rest went smoothly, and I managed to quickly solve another problem of How
+                  to revert the background. I think that problem got solved by searching through the internet for solutions
+                  and found a neat way of updating the dynamic image element, whereas I though I wopuld need two. But I was able 
+                  to reduce the amount of code again, and when looked at the final solution saw that I had 56 lines of code
+                  and that had taken me 6 hours to complete,  pleased but not pleased.  
+                 
+              </p>
             
-            <h4>In both cases:  </h4>
-            <h4> •	What was the problem?  </h4>
-            <h4>  •	What problem solving techniques did you use?  </h4>
-            <h4> •	How did you feel throughout the process?  </h4>
-            <h4> •	What did you learn?    </h4>
-              <p>The problem was that I didn't understand whjat the method was, and also the new style of Javascript  </p>
-
-              <p>How I solved the problem was by slowly going through the code, and understand wat each step did,
-there were many steps on each line.  Also displaying the values of what a method does this helped me understand 
-what was happening in particular the method split.  Displayed the output of a string that used split and saw that
- the string was now an array. each occurrance of the array is fed into the next function   </p>
-
- <p>I felt good, as I understood what was going on in the line of code,  not only
-that but the next day, and looking at exercises in edabit they had a really good desciption
-and used the example on a basic equation.  Having the time to research later and after a good nights sleep
-helped as well </p>
-
-<p>I learned that I need to slow down, have a break, and try and not think about the problem helps </p>
-
+            
             
             
 
@@ -82,17 +117,40 @@ helped as well </p>
               <li>	Asking coaches for help </li>
               <li>	Improving your process with reflection </li>
             </ul>
-             <p> I am quite confident about using the problem solving techniques,  I hadn't done Psedocode
-              for a while, but was always a fan of structured diagrams and flowcharts,  which helps map
-              out the process, they give a picture of what to do, but don't necessaryily reflect how
-              tyou would code it. </p>
+             <p> I hadn't done Psedocode  for a while, but was always a fan of structured diagrams and flowcharts,
+                 which helps map out the process and steps, they give a picture of what to do and the order,
+                  but don't necessaryily reflect how you would code it. With structured diagrams you can spot
+                  potential problems coming up at a cheap stage of development</p>
               
-              <p>   Console logging is my favourite way, as I want to see what is happening to values as going through the flow of the code.
-              <p>That way the area of fault can be pinpointed.  </p>
+              <p> Trying something,  before I rerun after a error, I make sure I have changed code as to where
+                   I think the problem could be, if nothing has changed you are always going to get the same result.
+                   This also helps with elimination ofwhat the problem could be </p>
+
+              <p> Rubber Duck Method,  can't see the trees for the forest,  it has happened to me a couple of times
+                in the past when talking over what has happened and the penny has dropped, and you know what has caused 
+                the problem. Had the penny drop when people come and see me about their problems</p>
+
+              <p>   Console logging is my favourite way, as I want to see what is happening to values as going through 
+                the flow of the code and what is happening to them. This also shows me where in the code I might be 
+                erroring.  </p>
+
+              <p>Reading error messages,  it has come in handy,  first by giving an accurate line number,
+                which has saved much effort in searching.  Sometimes the descriptions are not that great, but I know what
+                code is at fault.  </p>
               
-              <p>Googling is such a valuable tool now, as there is so many examples, and practices available  </p>
+              <p>Googling is such a valuable tool now, as there is so many examples and some of the websites have practice
+                arenas where you can't do any damage and you can play with the code, and it is solely focused on one area.  </p>
               
-              <p>Also asking slack has been useful, as you know the issue is fixable  </p>
+              <p>Asking slack has been useful, as you know the issue is fixable. And people have 
+                a different way of looking at a issue that you may have, and this helps to look at a 
+              problem differently.   </p>
+
+              <p>Asking coaches for help, or higher up people.  It is useful as more than likely they have experienced
+                the problem themselves, and have more knowledge of the environment that you are working in   </p>
+
+                <p>Improving your process with reflection,  Taking a step back  and thinking about the issue when the 
+                  environment is not stressful or hectic, you are more balanced in your thinking and probably not biased
+                  due to the environment. </p>
           
           
           </span>
